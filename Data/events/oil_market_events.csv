@@ -1,0 +1,32 @@
+Date,Event,Event_Type,Severity,Description,Duration
+1990-08-02,Iraq Invasion of Kuwait,Geopolitical Conflict,High,Iraq's invasion triggered Gulf War, disrupting oil supply from both countries,Months
+1991-01-17,Gulf War Operation Desert Storm,Geopolitical Conflict,High,US-led coalition forces began military action against Iraq,Weeks
+1997-07-01,Asian Financial Crisis,Economic Shock,Medium,Financial crisis reduced oil demand from Asia,Months
+1998-12-30,OPEC Production Cut Agreement,OPEC Decision,Medium,OPEC agreed to cut production by 2.1 million barrels/day,Months
+2001-09-11,9/11 Terrorist Attacks,Geopolitical Conflict,High,Terrorist attacks created uncertainty in global markets,Weeks
+2003-03-20,Iraq War Invasion,Geopolitical Conflict,High,US-led invasion of Iraq disrupted regional oil supplies,Months
+2005-08-29,Hurricane Katrina,Natural Disaster,High,Hurricane damaged Gulf of Mexico oil infrastructure,Weeks
+2008-07-03,Oil Price Peak ($147/barrel),Market Event,High,Brent reached record high price,Days
+2008-09-15,Global Financial Crisis Lehman Collapse,Economic Shock,High,Financial crisis triggered global economic downturn,Months
+2010-04-20,Deepwater Horizon Oil Spill,Environmental Disaster,Medium,BP oil spill disrupted Gulf production,Months
+2011-02-15,Arab Spring Libya Conflict,Geopolitical Conflict,High,Civil war in Libya disrupted oil exports,Months
+2011-03-11,Fukushima Nuclear Disaster,Natural Disaster,Medium,Japan's disaster affected energy demand patterns,Months
+2012-01-01,EU Sanctions on Iran,International Sanctions,Medium,European Union imposed oil sanctions on Iran,Months
+2014-06-01,OPEC Production Increase,OPEC Decision,High,OPEC decided to maintain production despite falling prices,Months
+2014-11-27,OPEC Refuses Production Cut,OPEC Decision,High,OPEC maintained output levels, accelerating price decline,Months
+2015-01-15,Swiss Franc Unpeg,Economic Shock,Low,Currency market volatility affected commodity prices,Days
+2016-01-16,Iran Sanctions Lifted,International Sanctions,Medium,International sanctions on Iran were lifted,Months
+2016-11-30,OPEC Production Cut Agreement,OPEC Decision,High,OPEC agreed to first production cut in 8 years,Months
+2017-06-05,Qatar Diplomatic Crisis,Geopolitical Conflict,Low,Gulf diplomatic crisis created regional uncertainty,Weeks
+2018-05-08,US Withdraws from Iran Nuclear Deal,International Sanctions,Medium,US reinstated sanctions on Iran,Months
+2019-09-14,Saudi Oil Facilities Attack,Geopolitical Conflict,High,Drone attacks on Saudi oil facilities cut production by 50%,Weeks
+2020-01-08,Iran-US Tensions Escalate,Geopolitical Conflict,Medium,Iran missile strikes following US assassination,Days
+2020-03-06,OPEC+ Price War,OPEC Decision,High,Saudi Arabia and Russia triggered price war by increasing production,Weeks
+2020-03-11,WHO Declares COVID-19 Pandemic,Health Crisis,High,Global pandemic caused unprecedented demand collapse,Months
+2020-04-20,Negative Oil Prices (-$37/barrel),Market Event,High,WTI futures turned negative for first time in history,Days
+2020-04-12,OPEC+ Historic Production Cut,OPEC Decision,High,Record 9.7 million barrels/day production cut agreement,Months
+2021-02-15,Texas Winter Storm,Natural Disaster,Medium,Severe weather disrupted US oil production,Weeks
+2021-07-01,OPEC+ Gradual Production Increase,OPEC Decision,Medium,Planned gradual increase in oil production,Months
+2022-02-24,Russia Invades Ukraine,Geopolitical Conflict,High,Major military conflict disrupted global energy markets,Ongoing
+2022-03-08,US Bans Russian Oil,International Sanctions,High,United States banned Russian oil imports,Months
+2022-12-05,EU Russian Oil Price Cap,International Sanctions,High,EU implemented $60/barrel price cap on Russian oil,Months
