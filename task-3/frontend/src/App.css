@@ -1,0 +1,197 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.chart-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.stat-card h6 {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-bottom: 5px;
+}
+
+.stat-card .stat-value {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat-card .stat-change {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.positive {
+  color: #28a745;
+}
+
+.negative {
+  color: #dc3545;
+}
+
+.event-marker {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.event-marker:hover {
+  transform: scale(1.1);
+}
+
+.filter-panel {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.event-card {
+  border-left: 4px solid #007bff;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.event-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.event-card.high-severity {
+  border-left-color: #dc3545;
+}
+
+.event-card.medium-severity {
+  border-left-color: #ffc107;
+}
+
+.event-card.low-severity {
+  border-left-color: #28a745;
+}
+
+.change-point-marker {
+  stroke: #ff6b6b;
+  stroke-width: 2;
+  fill: #ff6b6b;
+}
+
+.volatility-chart {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.correlation-table {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.error-message {
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.tooltip-custom {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .stat-card {
+    margin-bottom: 15px;
+  }
+  
+  .chart-container {
+    padding: 15px;
+  }
+  
+  .filter-panel {
+    padding: 15px;
+  }
+}
+
+/* Custom scrollbar */
+.correlation-table::-webkit-scrollbar {
+  width: 8px;
+}
+
+.correlation-table::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.correlation-table::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.correlation-table::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Animation for charts */
+.chart-container {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+  .stat-card .stat-value {
+    font-size: 1.5rem;
+  }
+  
+  .filter-panel .row {
+    gap: 10px;
+  }
+  
+  .nav-tabs .nav-link {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
