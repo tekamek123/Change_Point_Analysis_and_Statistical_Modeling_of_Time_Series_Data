@@ -1,0 +1,63 @@
+
+BRENT OIL PRICE EXPLORATORY DATA ANALYSIS REPORT
+Generated on: 2026-02-04 11:35:36
+
+1. DATASET OVERVIEW
+==================
+Total Price Records: 9,011
+Date Range: 1987-05-20 to 2022-11-14
+Total Events Analyzed: 31
+
+2. PRICE STATISTICS
+==================
+Mean Price: $48.42
+Median Price: $38.57
+Minimum Price: $9.10 (occurred on 1998-12-10)
+Maximum Price: $143.95 (occurred on 2008-07-03)
+Standard Deviation: $32.86
+
+3. VOLATILITY ANALYSIS
+======================
+Average Daily Volatility: 0.0215
+Highest Volatility Period: 2020-05-06
+Period of Highest Volatility: 2020
+
+4. EVENT ANALYSIS
+=================
+High Severity Events: 19
+Medium Severity Events: 10
+Low Severity Events: 2
+
+Event Type Distribution:
+Event_Type
+Geopolitical Conflict      9
+OPEC Decision              7
+International Sanctions    5
+Economic Shock             3
+Natural Disaster           3
+Market Event               2
+Environmental Disaster     1
+Health Crisis              1
+
+5. KEY INSIGHTS
+===============
+1. Historical Price Range: Oil prices have ranged from $9.10 to $143.95, showing extreme volatility
+2. Major Price Shocks: The data includes several major events including Gulf Wars, Financial Crisis, and COVID-19 pandemic
+3. Event Correlation: High-severity events show significant price movements, with average changes of -5.73% if impact data exists
+4. Data Quality: The dataset provides comprehensive daily coverage over 35+ years, suitable for change point analysis
+
+6. RECOMMENDATIONS FOR CHANGE POINT ANALYSIS
+============================================
+1. Focus on high-severity events for initial change point detection
+2. Consider both sudden shocks (wars, attacks) and prolonged events (financial crises)
+3. Account for different time scales - some events have immediate effects, others have gradual impacts
+4. Use volatility clustering as additional indicators of regime changes
+5. Validate detected change points against known historical events
+
+7. DATA QUALITY ASSESSMENT
+==========================
+Missing Values: 31
+Duplicate Records: 0
+Date Consistency: Verified - all dates are sequential and complete
+
+The dataset is of high quality and ready for Bayesian change point analysis.
